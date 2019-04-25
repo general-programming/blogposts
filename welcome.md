@@ -10,7 +10,7 @@ you've reached the blog of #general-programming.
 we got:
 
 * markdown! :white_check_mark:
-* emojis! :sparkle:
+* emojis! :sparkles: :tada:
 * nodejs!
 
 find our home at [https://genprog.gq](https://genprog.gq).
