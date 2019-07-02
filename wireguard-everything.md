@@ -26,4 +26,4 @@ WireGuard is easy to configure, but this is madness:
 
 Someone can connect to any server, and with some masquerading rules, they can connect to any node they want, through that server.
 
-Job done. I'll probably ramble about this in [my own blog](https://blog.linuxgemini.space).
+Job done. I'll probably ramble *more* about this in [my own blog](https://blog.linuxgemini.space).
