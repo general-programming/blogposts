@@ -19,7 +19,8 @@ saw [a toot](https://cybre.space/@iliana/104595153489682886) from [iliana](https
 noting that it happens *upon each payment cycle*, and there's no way to avoid it - you will be
 force-joined to every server available to you.
 
-So, spurred by the promise of innovation, I propose...
+This seems a little bizzare to me - surely you should be able to choose which servers
+to join. So, in the interest of sharing ideas freely, or something, I propose...
 
 ## The Simple Fix: Literally just add a button
 
@@ -32,10 +33,12 @@ It can just be as simple as this (fake mockup) example:
 ![An edited example with Hbomb's patreon](https://i.witch.press/TtwaB6As.png)
 
 This way, you can choose to join and leave servers at your leisure; none of this
-auto-joining business.
+auto-joining business. The flow is barely different from the automatic system;
+all Patreon has to do is add a new endpoint.
 
-Actually, under the current automatic system, can you even manually rejoin a server
-if you leave? Or do you have to wait until the next payment cycle?
+Actually, as an aside: under the current automatic system, can you even manually
+rejoin a server if you leave?
+Or do you have to wait until the next payment cycle?
 
 ## Musing on alternatives
 
@@ -58,9 +61,9 @@ this.
 
 ## Wrapping up
 
-It's baffling to me that the integration is this bad - given that they give
+It's baffling to me that the integration is this bad - given that Patreon gives
 creators the option to place a "Includes Discord rewards" banner on their pledge
-tiers. Clearly they don't mind placing another company's logo quite visibly on
+tiers. Clearly Patreon doesn't mind placing another company's logo quite visibly on
 creator pages, so why didn't they spend any more time implementing this feature?
 
 If you're interested more in Patreon's design and business failings, I'd suggest
