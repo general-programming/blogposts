@@ -47,7 +47,7 @@ permission, to allow them to use Discord's 'Add Guild Member' endpoint:
 Using this endpoint honestly makes a lot of sense, because it means the server controls
 all the state, but there is an alternative: creating an invite.
 
-[![Screenshot of Discord Developer Docs](https://i.witch.press/3BvSNXL5.png)](https://discord.com/developers/docs/resources/guild#add-guild-member)
+[![Screenshot of Discord Developer Docs](https://i.witch.press/3BvSNXL5.png)](https://discord.com/developers/docs/resources/channel#create-channel-invite)
 
 You could generate a temporary invite on-request and give it to the user. Presumably the
 `target_user` parameter also locks that invite to a specific user (which would be essential!),
