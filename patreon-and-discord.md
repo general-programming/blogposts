@@ -40,24 +40,16 @@ Actually, as an aside: under the current automatic system, can you even manually
 rejoin a server if you leave?
 Or do you have to wait until the next payment cycle?
 
-## Musing on alternatives
+## Some technical bits
 
 Patreon's integration requires adding a bot to your server and giving it the "Create Instant Invite"
 permission, to allow them to use Discord's 'Add Guild Member' endpoint:
 
 [![Screenshot of Discord Developer Docs](https://i.witch.press/B345RPxM.png)](https://discord.com/developers/docs/resources/guild#add-guild-member)
 
-Using this endpoint honestly makes a lot of sense, because it means the server controls
-all the state, but there is an alternative: creating an invite.
-
-[![Screenshot of Discord Developer Docs](https://i.witch.press/3BvSNXL5.png)](https://discord.com/developers/docs/resources/channel#create-channel-invite)
-
-You could generate a temporary invite on-request and give it to the user. Presumably the
-`target_user` parameter also locks that invite to a specific user (which would be essential!),
-but the documentation is incredibly unclear on what this parameter does. The only `target_user_type`
-is `STREAM` with a value of 1, but it's also unclear what this means. Either way, I
-think it makes more sense to use the Add Guild Member interface rather than
-this.
+So this endpoint is currently just called automatically for every patron upon
+every payment cycle. It should not be particularly difficult to put this behind
+a button instead.
 
 ## Wrapping up
 
@@ -68,3 +60,5 @@ creator pages, so why didn't they spend any more time implementing this feature?
 
 If you're interested more in Patreon's design and business failings, I'd suggest
 reading [Plaidophile's write up on why they stopped using Patreon](https://beesbuzz.biz/blog/3222-In-which-I-finally-stop-using-Patreon).
+
+*EDIT 2021-06-03: Removed some bits about invites that proved outdated, and made that section better*
